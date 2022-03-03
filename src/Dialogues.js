@@ -29,7 +29,7 @@ else{
                             <>
                             <div className='dialogueWrapper' key={dialogue.id}>
                                 <div className='dialogueHeader'>
-                                    <img src = './img/profilePic2.png' alt = "profile/"/>
+                                    <img src = './img/profilePic2.jpg' alt = "profile/"/>
                                     <strong >{dialogue.character}, {dialogue.series}</strong>
                                 </div>
                                 <div className='dialogueText'>
