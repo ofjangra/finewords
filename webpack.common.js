@@ -22,7 +22,7 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
             {
-                test: /\.(jpg | webp | jpeg | svg | gif)$/,
+                test: /\.(jpg | png | webp | jpeg | svg | gif)$/,
                 loader: require.resolve('file-loader')
             }
         ]
