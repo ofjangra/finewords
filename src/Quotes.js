@@ -37,7 +37,7 @@ const Quotes = () =>{
                             <>
                             <div className='quoteWrapper' key={quote.id}>
                                 <div className='quoteHeader'>
-                                    <img src = "./img/profilePic.jpg" alt = "profile"/>
+                                    <img src = "./img/profilePic.jpg" alt = "profile"></img>
                                     <strong >{quote.author}</strong>
                                 </div>
                                 <div className='quoteText'>
